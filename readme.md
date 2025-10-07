@@ -108,79 +108,27 @@
 3. **Visualizzazione**: Esplora i propri percorsi in forma semplificata
 4. **Riflessione**: Analizza scenari alternativi per auto-comprensione
 5. **Tracking**: Monitora la propria evoluzione nel tempo
-
 ---
+# Preview!
+## Attenzione: i dati del paziente, le informazioni del profilo psicologico e il contenuto sono solo a scopo dimostrativo, non sono dati reali.
 
-## 🏗️ Architettura Tecnica
+## Login Page 
+![alt text](<docs/photo/login page.png>)
 
-### 📁 Struttura Cartelle
-```
-psyai/
-├── frontend/
-│   ├── src/
-│   │   ├── components/
-│   │   │   ├── common/
-│   │   │   ├── psychologist/
-│   │   │   └── patient/
-│   │   ├── visualizations/
-│   │   │   ├── RandomForest.jsx
-│   │   │   ├── Timeline.jsx
-│   │   │   └── ThematicMap.jsx
-│   │   ├── services/
-│   │   │   ├── aiService.js
-│   │   │   └── dataService.js
-│   │   └── utils/
-│   └── public/
-├── backend/
-│   ├── routes/
-│   │   ├── ai/
-│   │   ├── analysis/
-│   │   ├── users/
-│   │   └── data/
-│   ├── services/
-│   │   ├── geminiService.js
-│   │   ├── analysisService.js
-│   │   └── visualizationService.js
-│   ├── models/
-│   ├── middleware/
-│   └── utils/
-├── database/
-│   ├── migrations/
-│   ├── seeds/
-│   └── schemas/
-├── docs/
-│   ├── api/
-│   ├── user-guides/
-│   └── technical/
-└── tests/
-    ├── frontend/
-    ├── backend/
-    └── integration/
-```
+## Home Page 
 
-### 🔌 API Endpoints Principali
-```
-/api/v1/
-├── auth/
-│   ├── login
-│   └── register
-├── ai/
-│   ├── analyze
-│   ├── generate-questions
-│   └── what-if-scenarios
-├── analysis/
-│   ├── upload-document
-│   ├── create-visualization
-│   └── generate-report
-├── data/
-│   ├── sessions
-│   ├── insights
-│   └── timeline
-└── users/
-    ├── profile
-    └── preferences
-```
+![alt text](<docs/photo/home page.png>)
 
+## Dettaglio Paziente
+![alt text](<docs/photo/Dettaglio Paziente 1.png>)
+![alt text](<docs/photo/Dettaglio Paziente 2.png>)
+
+## Chat AI 
+![alt text](<docs/photo/chat AI.png>)
+
+## Analisi AI
+![alt text](<docs/photo/Analisi AI.png>)
+![alt text](<docs/photo/Analisi AI 2.png>)
 ---
 
 ## 🎯 Funzionalità Dettagliate
@@ -192,50 +140,10 @@ psyai/
 - **Scenario Generation**: Creazione di alternative plausibili
 - **Sentiment Analysis**: Analisi emotiva approfondita
 
-### 🔒 Privacy & Sicurezza
-- **Crittografia End-to-End**: Tutti i dati sensibili crittografati
-- **Accesso Separato**: Psicologi e pazienti non condividono dati automaticamente
-- **Compliance**: Rispetto delle normative sulla privacy medica
-- **Anonimizzazione**: Opzioni per l'anonimizzazione dei dati
-
 ### 📱 Responsive Design
 - **Multi-Device**: Ottimizzato per desktop, tablet, mobile
 - **Progressive Web App**: Funzionalità offline limitate
 - **Accessibilità**: Conforme alle linee guida WCAG
-
----
-
-## 🚀 Roadmap di Sviluppo
-
-### Phase 1 - MVP (Mesi 1-3)
-- [ ] Setup infrastruttura base
-- [ ] Integrazione Gemini API
-- [ ] Interfacce base per psicologo e paziente
-- [ ] Funzionalità di upload e analisi documenti
-- [ ] Prima versione visualizzazione Random Forest
-
-### Phase 2 - Core Features (Mesi 4-6)
-- [ ] Sistema di journaling guidato
-- [ ] Timeline emotiva
-- [ ] Generazione scenari "what-if"
-- [ ] Riassunti esecutivi automatici
-- [ ] Sistema di domande adattive
-
-### Phase 3 - Advanced Features (Mesi 7-9)
-- [ ] Visualizzazioni avanzate e interattive
-- [ ] Sistema di suggerimenti terapeutici
-- [ ] Analytics e insights avanzati
-- [ ] Funzionalità di export/import
-- [ ] Sistema di backup e recovery
-
-### Phase 4 - Polish & Scale (Mesi 10-12)
-- [ ] Ottimizzazioni performance
-- [ ] Testing approfondito
-- [ ] Documentazione completa
-- [ ] Beta testing con professionisti
-- [ ] Preparazione per deployment
-
----
 
 ## 💡 Innovazioni Chiave
 
@@ -253,27 +161,6 @@ psyai/
 - Memoria contestuale delle sessioni precedenti
 - Adattamento dinamico delle domande
 - Comprensione semantica profonda del linguaggio emotivo
-
----
-
-## 📊 Metriche di Successo
-
-### Per Psicologi:
-- Riduzione tempo di analisi del 40%
-- Miglioramento insights clinici (feedback qualitativo)
-- Aumento efficacia terapeutica (outcome tracking)
-
-### Per Pazienti:
-- Incremento auto-consapevolezza (self-assessment)
-- Maggiore engagement nel processo terapeutico
-- Riduzione resistenze all'esplorazione personale
-
-### Tecniche:
-- Accuratezza AI >85% nella pattern recognition
-- Tempo risposta <2 secondi per analisi standard
-- Uptime >99.5% della piattaforma
-
----
 
 ## 🚀 Quick Start
 
@@ -330,4 +217,4 @@ npm run build          # Build produzione frontend
 ### Integrazione:
 - API aperte per integrazione con sistemi esistenti
 - Export standard per software clinici
-- Possibilità di white-labeling per studi privati
+- Possibilità di white-labeling per studi privati 
